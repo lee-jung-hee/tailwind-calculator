@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>레트로 계산기</title>
+    <link rel="stylesheet" href="calculator.css" />
+    <link
+      href="https://fonts.cdnfonts.com/css/digital-7-mono"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container flex">
+      <main class="main">
+        <section class="main__display flex">
+          <div class="main__display__output">0</div>
+        </section>
+        <section class="main__btn flex">
+          <div class="main__btn__logo flex">
+            <div class="main__btn__logo__circle">
+              <span class="main__btn__logo__circle__window" id="btn-red"></span>
+              <span
+                class="main__btn__logo__circle__window"
+                id="btn-yellow"
+              ></span>
+              <span
+                class="main__btn__logo__circle__window"
+                id="btn-green"
+              ></span>
+            </div>
+            <div class="main__btn__logo__copyright">
+              <span>Ⓒ SIMPLETAX.KR</span>
+            </div>
+          </div>
+          <button class="main__btn__keypad function" id="pad_c" value="reset">
+            C
+          </button>
+          <button class="main__btn__keypad" id="pad_reverse" value="reverse">
+            ±
+          </button>
+          <button class="main__btn__keypad operator" id="pad_percent" value="%">
+            %
+          </button>
+          <button class="main__btn__keypad operator" id="pad_devide" value="/">
+            ÷
+          </button>
+          <button class="main__btn__keypad number" id="pad_7" value="7">
+            7
+          </button>
+          <button class="main__btn__keypad number" id="pad_8" value="8">
+            8
+          </button>
+          <button class="main__btn__keypad number" id="pad_9" value="9">
+            9
+          </button>
+          <button
+            class="main__btn__keypad operator"
+            id="pad_multiple"
+            value="*"
+          >
+            ×
+          </button>
+          <button class="main__btn__keypad number" id="pad_4" value="4">
+            4
+          </button>
+          <button class="main__btn__keypad number" id="pad_5" value="5">
+            5
+          </button>
+          <button class="main__btn__keypad number" id="pad_6" value="6">
+            6
+          </button>
+          <button class="main__btn__keypad operator" id="pad_minus" value="-">
+            -
+          </button>
+          <button class="main__btn__keypad number" id="pad_1" value="1">
+            1
+          </button>
+          <button class="main__btn__keypad number" id="pad_2" value="2">
+            2
+          </button>
+          <button class="main__btn__keypad number" id="pad_3" value="3">
+            3
+          </button>
+          <button class="main__btn__keypad operator" id="pad_plus" value="+">
+            +
+          </button>
+          <button class="main__btn__keypad number zero" id="pad_zero" value="0">
+            0
+          </button>
+          <button class="main__btn__keypad" id="pad_float" value=".">･</button>
+          <button
+            class="main__btn__keypad function"
+            id="pad_delete"
+            value="backspace"
+          >
+            ⌫
+          </button>
+          <button class="main__btn__keypad" id="pad_equals" value="=">=</button>
+        </section>
+      </main>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>

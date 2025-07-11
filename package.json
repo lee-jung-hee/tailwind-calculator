@@ -1,0 +1,28 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "./node_modules/.bin/tailwindcss -i ./calculator.css -o ./output.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lee-jung-hee/tailwind-calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lee-jung-hee/tailwind-calculator/issues"
+  },
+  "homepage": "https://github.com/lee-jung-hee/tailwind-calculator#readme",
+  "description": "",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.6.14",
+    "tailwindcss": "^4.1.11"
+  },
+  "dependencies": {
+    "tailwind-merge": "^3.3.1"
+  }
+}
